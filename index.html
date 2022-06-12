@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Hi, this is Nelson. Please DELETE the <script> block below (L6-L13)
+          if you use this HTML, otherwise my analytics will track your page. -->
+        <title>Zipeng Xu</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta property="og:url" content="http://zipengxu.me" />
+	    <meta property="og:title" content="Zipeng Xu" />
+	    <meta property="og:image" content="http://zipengxu.me/img/zipeng_2022.jpg" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="author" content="Zipeng Xu">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+        <style>
+            a{color:#6667AB}
+            a:hover{color:#8B00FF}
+        </style>
+    </head>
+    <body>
+        <div class="container mt-5">
+            <div class="row mb-3">
+                <div class="col-lg-3 col-md-4">
+                    <img class="img-fluid rounded" src="img/zipeng_2022.jpg" alt="Zipeng Xu">
+                </div>
+                <div class="col-lg-9 col-md-8">
+                    <h1>Zipeng Xu</h1>
+                    <p>
+                        Hello! I am a first-year PhD student in the <a href="http://mhug.disi.unitn.it/"
+                        target="_blank">Multimedia and Human Understanding Group</a> at
+                        University of Trento.
+                        My advisor is <a href="https://disi.unitn.it/~sebe/"
+                        target="_blank">Prof. Nicu Sebe</a>.
+                    </p>
+                    <p>
+                        Previously, I received bachelor degree in Communication Engineering
+                        and master degree in Intelligent Science and Technology
+                        from the Beijing University of Posts and Telecommunications (BUPT), where I was advised by
+                        <a href="https://www.researchgate.net/profile/Xiaojie-Wang-19"
+                                target="_blank">Prof. Xiaojie Wang</a>.
+                        I also worked closely with <a href="http://fandongmeng.github.io/"
+                                target="_blank">Dr. Fandong Meng</a>
+                        at the <a href="https://ai.weixin.qq.com/"
+                                  target="_blank">Wechat AI</a>.
+                    </p>
+                    <p>
+                        <b>Email:</b>
+                        zipeng.xu@unitn.it
+                        <br/>
+                        <b>Personal:</b>
+                        [<a href="https://github.com/zipengxuc" target="_blank">Github</a>] [<a href="https://scholar.google.com/citations?user=MYHDHu0AAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>]
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row" id="publications">
+                <div class="col">
+                    <h2>Publications</h2>
+                    <ul class="pl">
+                        <li>
+
+                            <b>Predict, Prevent, and Evaluate: Disentangled Text-Driven Image Manipulation Empowered by Pre-Trained Vision-Language Model</b>
+                            [<a href="https://arxiv.org/abs/2111.13333?context=cs" target="_blank">arXiv</a>]
+                            [<a href="#" onclick="$('#ppe_cvpr2022_abstract').toggle();return false;">abstract</a>]
+                            [<a href="https://github.com/zipengxuc/PPE-Pytorch" target="_blank">code</a>]
+                            <div id="ppe_cvpr2022_abstract" class="abstract" style="display:none;">
+                                <p class="h5 text-muted">
+                                    To achieve disentangled image manipulation, previous works depend heavily on manual annotation. Meanwhile, the available manipulations are limited to a pre-defined set the models were trained for. We propose a novel framework, i.e., Predict, Prevent, and Evaluate (PPE), for disentangled text-driven image manipulation that requires little manual annotation while being applicable to a wide variety of manipulations. Our method approaches the targets by deeply exploiting the power of the large-scale pre-trained vision-language model CLIP. Concretely, we firstly Predict the possibly entangled attributes for a given text command. Then, based on the predicted attributes, we introduce an entanglement loss to Prevent entanglements during training. Finally, we propose a new evaluation metric to Evaluate the disentangled image manipulation. We verify the effectiveness of our method on the challenging face editing task. Extensive experiments show that the proposed PPE framework achieves much better quantitative and qualitative results than the up-to-date StyleCLIP baseline.
+                                </p>
+                            </div>
+                            <br/>
+                            <b>Zipeng Xu</b>,
+                            Tianwei Lin, Hao Tang, Fu Li, Dongliang He, Nicu Sebe, Radu Timofte, Luc Van Gool, Errui Ding.
+                            <br/>
+                            To appear in <b>IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)</b>, 2022.
+                        </li>
+                        <br/>
+                        <li>
+
+                            <b>Modeling Explicit Concerning States for Reinforcement Learning in Visual Dialogue</b>
+                            [<a href="https://www.bmvc2021-virtualconference.com/assets/papers/0533.pdf" target="_blank">paper</a>]
+                            [<a href="https://arxiv.org/abs/2107.05250" target="_blank">arXiv</a>]
+                            [<a href="#" onclick="$('#ecs_bmvc2021_abstract').toggle();return false;">abstract</a>]
+                            [<a href="https://github.com/zipengxuc/ecs-visdial-rl" target="_blank">code</a>]
+                            <div id="ecs_bmvc2021_abstract" class="abstract" style="display:none;">
+                                <p class="h5 text-muted">
+                                    To encourage AI agents to conduct meaningful Visual Dialogue (VD), the use of Reinforcement Learning has been proven potential. In Reinforcement Learning, it is crucial to represent states and assign rewards based on the action-caused transitions of states. However, the state representation in previous Visual Dialogue works uses the textual information only and its transitions are implicit. In this paper, we propose Explicit Concerning States (ECS) to represent what visual contents are concerned at each round and what have been concerned throughout the Visual Dialogue. ECS is modeled from multimodal information and is represented explicitly. Based on ECS, we formulate two intuitive and interpretable rewards to encourage the Visual Dialogue agents to converse on diverse and informative visual information. Experimental results on the VisDial v1.0 dataset show our method enables the Visual Dialogue agents to generate more visual coherent, less repetitive and more visual informative dialogues compared with previous methods, according to multiple automatic metrics, human study and qualitative analysis.
+                                </p>
+                            </div>
+                            <br/>
+                            <b>Zipeng Xu</b>,
+                            Fandong Meng, Xiaojie Wang, Duo Zheng, Chenxu Lv and Jie Zhou.
+                            <br/>
+                            In <b>British Machine Vision Conference (BMVC)</b>, 2021.
+                        </li>
+                        <br/>
+                        <li>
+
+                            <b>Enhancing Visual Dialog Questioner with Entity-based Strategy Learning and Augmented Guesser</b>
+                            [<a href="https://aclanthology.org/2021.findings-emnlp.158.pdf" target="_blank">paper</a>]
+                            [<a href="https://arxiv.org/abs/2109.02297" target="_blank">arXiv</a>]
+                            [<a href="#" onclick="$('#reeq_emnlp2021_abstract').toggle();return false;">abstract</a>]
+                            [<a href="https://github.com/zd11024/Entity_Questioner" target="_blank">code</a>]
+                            <div id="reeq_emnlp2021_abstract" class="abstract" style="display:none;">
+                                <p class="h5 text-muted">
+                                    Considering the importance of building a good Visual Dialog (VD) Questioner, many researchers study the topic under a Q-Bot-A-Bot image-guessing game setting, where the Questioner needs to raise a series of questions to collect information of an undisclosed image. Despite progress has been made in Supervised Learning (SL) and Reinforcement Learning (RL), issues still exist. Firstly, previous methods do not provide explicit and effective guidance for Questioner to generate visually related and informative questions. Secondly, the effect of RL is hampered by an incompetent component, i.e., the Guesser, who makes image predictions based on the generated dialogs and assigns rewards accordingly. To enhance VD Questioner: 1) we propose a Related entity enhanced Questioner (ReeQ) that generates questions under the guidance of related entities and learns entity-based questioning strategy from human dialogs; 2) we propose an Augmented Guesser (AugG) that is strong and is optimized for the VD setting especially. Experimental results on the VisDial v1.0 dataset show that our approach achieves state-of-theart performance on both image-guessing task and question diversity. Human study further proves that our model generates more visually related, informative and coherent questions.
+                                </p>
+                            </div>
+                            <br/>
+                            Duo Zheng*
+                            <b>Zipeng Xu*</b>,
+                            Fandong Meng, Xiaojie Wang, Jiaan Wang and Jie Zhou.
+                            (* Equal Contribution)
+                            <br/>
+                            In <b>Findings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)</b>, 2021.
+                        </li>
+                        <br/>
+                        <li>
+
+                            <b>Answer-Driven Visual State Estimator for Goal-Oriented Visual Dialogue</b>
+                            [<a href="https://dl.acm.org/doi/pdf/10.1145/3394171.3413668" target="_blank">paper</a>]
+                            [<a href="https://arxiv.org/abs/2010.00361" target="_blank">arXiv</a>]
+                            [<a href="#" onclick="$('#advse_acmmm2020_abstract').toggle();return false;">abstract</a>]
+                            [<a href="https://github.com/zipengxuc/ADVSE-GuessWhat" target="_blank">code</a>]
+                            <div id="advse_acmmm2020_abstract" class="abstract" style="display:none;">
+                                <p class="h5 text-muted">
+                                    A goal-oriented visual dialogue involves multi-turn interactions between two agents, Questioner and Oracle. During which, the answer given by Oracle is of great significance, as it provides golden response to what Questioner concerns. Based on the answer, Questioner updates its belief on target visual content and further raises another question. Notably, different answers drive into different visual beliefs and future questions. However, existing methods always indiscriminately encode answers after much longer questions, resulting in a weak utilization of answers. In this paper, we propose an Answer-Driven Visual State Estimator (ADVSE) to impose the effects of different answers on visual states. First, we propose an Answer-Driven Focusing Attention (ADFA) to capture the answer-driven effect on visual attention by sharpening question-related attention and adjusting it by answer-based logical operation at each turn. Then based on the focusing attention, we get the visual state estimation by Conditional Visual Information Fusion (CVIF), where overall information and difference information are fused conditioning on the question-answer state. We evaluate the proposed ADVSE to both question generator and guesser tasks on the large-scale GuessWhat?! dataset and achieve the state-of-the-art performances on both tasks. The qualitative results indicate that the ADVSE boosts the agent to generate highly efficient questions and obtains reliable visual attentions during the reasonable question generation and guess processes.
+                                </p>
+                            </div>
+                            <br/>
+                            <b>Zipeng Xu</b>,
+                            Fangxiang Feng, Xiaojie Wang, Huixing Jiang, Yushu Yang and Zhongyuan Wang.
+                            <br/>
+                            In <b>ACM Multimedia</b>, 2020.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <h2>Internships</h2>
+                    <ul>
+                    <li>
+                        <b>VIS Baidu Inc.</b>, Beijing, China. 08/2021-11/2021.
+                        <br/>
+                        Reseach Internship, focusing on text-guided image manipulation.
+                        <br/>
+                        Mentor: <a href="https://wzmsltw.github.io/"
+                                target="_blank">Tianwei Lin</a>.
+                    </li>
+                    <br/>
+                    <li>
+                        <b>Wechat AI, Tencent Inc.</b>, Beijing, China. 08/2020-06/2021.
+                        <br/>
+                        Reseach Internship, focusing on visually-grounded natural language generation.
+                        <br/>
+                        Mentor: <a href="http://fandongmeng.github.io/"
+                                target="_blank">Dr. Fandong Meng</a>.
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            <footer class="pt-2 my-md-2 pt-md-2 border-top">
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md text-left align-self-center">
+                        <p class="h5 text-muted">
+                            <br/>
+                            Thanks to this <a href="https://blog.nelsonliu.me/"
+                                            target="_blank">awesome guy</a>.
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
